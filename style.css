@@ -4,8 +4,9 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: 'SF Pro Display',sans-serif;
     background-color: #FBFBFD;
+    margin: 0;
 }
 ul {
     list-style: none;
@@ -30,4 +31,12 @@ ul {
 }
 .pop-up {
     background-color: #F5F5F7;
+    font-size: 11px;
+    text-align: center;
+}
+p > a {
+    text-decoration: none;
+}
+#pop-up {
+    margin-top: 51px;
 }
