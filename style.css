@@ -1,0 +1,33 @@
+* {
+    border: 1px solid blue
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #FBFBFD;
+}
+ul {
+    list-style: none;
+}
+.top-nav > li {
+    display: inline-block;
+    color:white;
+    padding: 0 1em;
+    font-size: 13px;
+}
+.top-nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    max-width: 100%;
+    
+}
+.top-nav-font{
+    text-decoration: none;
+    color:white;
+}
+.pop-up {
+    background-color: #F5F5F7;
+}
