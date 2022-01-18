@@ -13,16 +13,18 @@ ul {
 }
 .top-nav > li {
     display: inline-block;
-    color:white;
-    padding: 0 1em;
+    color:#AEAEAE;
+    padding: 0 1.5em;
     font-size: 13px;
 }
 .top-nav {
     background-color: #333333;
     text-align: center;
-    padding: 1em;
+    padding: 14px 240px;
     margin: 0;
     max-width: 100%;
+    position: fixed;
+    opacity: .9;
     
 }
 .top-nav-font{
@@ -39,4 +41,16 @@ p > a {
 }
 #pop-up {
     margin-top: 51px;
+}
+.main-ads {
+    max-width:100%;
+    height:50%;
+}
+.main-deals > h1 {
+    position:relative;
+    top: 7em;
+    left: 16em
+}
+.white-font {
+    color: white;
 }
