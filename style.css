@@ -20,11 +20,14 @@ ul {
 .top-nav {
     background-color: #333333;
     text-align: center;
-    padding: 14px 240px;
+    padding: 16px;
     margin: 0;
-    max-width: 100%;
+    width: 100%;
     position: fixed;
     opacity: .9;
+    left: 0;
+    right: 0;
+    top: 0;
     
 }
 .top-nav-font{
@@ -36,7 +39,7 @@ ul {
     font-size: 11px;
     text-align: center;
 }
-p > a {
+ a {
     text-decoration: none;
 }
 #pop-up {
@@ -47,10 +50,45 @@ p > a {
     height:50%;
 }
 .main-deals > h1 {
-    position:relative;
-    top: 7em;
-    left: 16em
+   position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-46%, 81%);
+  font-size: 4em;
 }
 .white-font {
     color: white;
+}
+
+.main-deals > p {
+    position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-46%, 400%);
+  font-size: 2em;
+}
+
+.links {
+    position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-46%, 595%);
+  font-size: 2em;
+}
+
+.links > a {
+    padding: 0 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div {
+    width: 48%;
+}
+
+.tiny-print {
+    padding: 0;
+    margin: 0 3em;
 }
